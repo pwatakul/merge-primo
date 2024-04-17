@@ -42,6 +42,16 @@ if (require.main === module) {
     process.exit(1);
   }
 
+  if (!Array.isArray(collection1) || !Array.isArray(collection2) || !Array.isArray(collection3)) {
+    console.error('All parameters must be arrays.');
+    process.exit(1);
+  }
+
+  if (collection1.some(isNaN) || collection2.some(isNaN) || collection3.some(isNaN)) {
+    console.error('All collections must contain valid numbers.');
+    process.exit(1);
+  }
+
   const mergedArray = merge(collection1, collection2, collection3);
 
   console.log('Merged Array:', mergedArray);

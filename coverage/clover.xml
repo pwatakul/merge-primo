@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1713215159920" clover="3.2.0">
-  <project timestamp="1713215159920" name="All files">
+<coverage generated="1713344619212" clover="3.2.0">
+  <project timestamp="1713344619212" name="All files">
     <metrics statements="26" coveredstatements="18" conditionals="28" coveredconditionals="5" methods="2" coveredmethods="2" elements="56" coveredelements="25" complexity="0" loc="26" ncloc="26" packages="1" files="1" classes="1"/>
     <file name="merge-array.ts" path="/Users/patawatwatakul/Desktop/primo/merge-arrays/merge-array.ts">
       <metrics statements="26" coveredstatements="18" conditionals="28" coveredconditionals="5" methods="2" coveredmethods="2"/>
